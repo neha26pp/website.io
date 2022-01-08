@@ -6,11 +6,11 @@ import { CalendarComponent } from './calendar/calendar.component';
 import { EventsComponent } from './events/events.component';
 
 const routes: Routes = [
-  {path: 'home', component: HomePageComponent},
-  {path: 'aboutus', component: AboutUsComponent},
-  {path: 'events', component: EventsComponent},
-  {path: 'calendar', component: CalendarComponent},
-  { path: '', redirectTo: '/aboutuspage', pathMatch: 'full' },
+  { path: 'home', component: HomePageComponent },
+  { path: 'aboutus', component: AboutUsComponent },
+  { path: 'events', component: EventsComponent },
+  { path: 'calendar', component: CalendarComponent },
+  { path: '', redirectTo: '/home', pathMatch: 'full' },
 
 ];
 
