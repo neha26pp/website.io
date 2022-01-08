@@ -25,3 +25,11 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+
+## Optional - Running with Docker
+
+If you're running docker, you can run the below steps:
+
+    1. docker build -t web-design:latest .
+    2. docker run -d -p 80:80 web-design:latest
+    3. Navigate to http://localhost
