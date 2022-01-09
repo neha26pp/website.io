@@ -23,7 +23,8 @@ import { EventsComponent } from './events/events.component';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    FormsModule
+    FormsModule,
+    
   ],
   providers: [],
   bootstrap: [AppComponent]
