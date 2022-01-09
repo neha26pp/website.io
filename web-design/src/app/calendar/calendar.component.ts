@@ -81,7 +81,7 @@ export class CalendarComponent {
   refresh = new Subject<void>();
 
   events: CalendarEvent[] = [
-    {
+   /* {
       start: subDays(startOfDay(new Date()), 1),
       end: addDays(new Date(), 1),
       title: 'A 3 day event',
@@ -118,7 +118,7 @@ export class CalendarComponent {
         afterEnd: true,
       },
       draggable: true,
-    },
+    }, */
   ];
 
   activeDayIsOpen: boolean = true;
