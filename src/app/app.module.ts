@@ -18,14 +18,10 @@ import { EventsComponent } from './events/events.component';
     EventsComponent,
     HeaderComponent,
     EventsComponent,
-    CalendarComponent
+    CalendarComponent,
   ],
-  imports: [
-    BrowserModule,
-    AppRoutingModule,
-    FormsModule
-  ],
+  imports: [BrowserModule, AppRoutingModule, FormsModule],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
 })
-export class AppModule { }
+export class AppModule {}
