@@ -13,12 +13,13 @@
 .nav-item{
     font-size: medium;
     font-family: Georgia, 'Times New Roman', Times, serif;
+    color: black;
    
 }
 
 .btn-outline-success{
    position: absolute;
-    left:1130px;
+    left:1115px;
     top: 12px;
     color: black;
     background-color: white;
