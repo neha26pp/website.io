@@ -39,12 +39,11 @@ const colors: any = {
   },
 };
 
-
 @Component({
   selector: 'app-events-calendar-page',
   changeDetection: ChangeDetectionStrategy.OnPush,
   templateUrl: './calendar.component.html',
-  styleUrls: ['./calendar.component.css']
+  styleUrls: ['./calendar.component.css'],
 })
 export class CalendarComponent {
 
@@ -191,5 +190,4 @@ export class CalendarComponent {
   closeOpenMonthViewDay() {
     this.activeDayIsOpen = false;
   }
-
 }
