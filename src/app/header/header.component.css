@@ -1,0 +1,49 @@
+/*This is a css file for the design and layout of  header components */
+
+
+.navbar-brand{
+    font-size: large;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+
+
+
+
+.nav-item{
+    font-size: medium;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: black;
+   
+}
+
+.btn-outline-success{
+   position: absolute;
+    left:1115px;
+    top: 12px;
+    color: black;
+    background-color: white;
+    font-size: small;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
+}
+
+form{
+    float:right;
+    width: 300px;
+  height: 44px;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+input {
+  
+    font-size:small;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    height: 100%;
+    width: 100%;
+    padding: 6px 10px;
+  }
+
