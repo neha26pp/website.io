@@ -8,7 +8,6 @@ import { CommonModule } from '@angular/common';
 import { NgbModalModule } from '@ng-bootstrap/ng-bootstrap';
 import { FlatpickrModule } from 'angularx-flatpickr';
 
-
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HomePageComponent } from './home/home-page.component';
@@ -36,11 +35,11 @@ import { EventsComponent } from './events/events.component';
     NgbModalModule,
     FlatpickrModule.forRoot(),
     CalendarModule.forRoot({
-    provide: DateAdapter,
-    useFactory: adapterFactory
-    })
+      provide: DateAdapter,
+      useFactory: adapterFactory,
+    }),
   ],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
 })
-export class AppModule { }
+export class AppModule {}

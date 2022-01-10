@@ -39,6 +39,7 @@ const colors: any = {
   },
 };
 
+
 @Component({
   selector: 'app-events-calendar-page',
   changeDetection: ChangeDetectionStrategy.OnPush,
