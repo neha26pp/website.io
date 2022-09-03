@@ -105,6 +105,48 @@
 
 
         }
+
+        .founder-card {
+          max-width: 450px;
+          margin: 10px;
+          left:800px;
+          top: 200px;
+          position: absolute;
+        }
+
+        .president-card {
+          max-width: 450px;
+          margin: 10px;
+          left:800px;
+          top: 230px;
+          position: absolute;
+        }
+
+        .vice-president-card {
+          max-width: 450px;
+          margin: 10px;
+          left:800px;
+          top: 260px;
+          position: absolute;
+        }
+
+        .treasurer-card {
+          max-width: 450px;
+          margin: 10px;
+          left:800px;
+          top: 290px;
+          position: absolute;
+        }
+
+        mat-card-header {
+          font-size: 18px;
+        }
+
+        mat-card-title {
+          font-size: 18px;
+          justify-content: center;
+          display: flex;
+        }
     </style>
 </head>
 <body>
@@ -122,13 +164,22 @@
         </div>
 
 
-            <h1>Meet the Leadership:</h1>
-            <h2>Founder: {{ founder.name }}</h2>
-            <h3>President: {{ president.name }}</h3>
-            <h4>Vice President: {{ vicePresident.name }}</h4>
-            <h5>Events Coordinator: </h5>
+        <h1>Meet the Leadership:</h1>
+        <mat-card class="founder-card">
+          <mat-card-title>Founder: {{ founder.name }}</mat-card-title>
+        </mat-card>
 
+        <mat-card class="president-card">
+          <mat-card-title>President: {{ president.name }}</mat-card-title>
+        </mat-card>
 
+        <mat-card class="vice-president-card">
+          <mat-card-title>Vice President: {{ vicePresident.name }}</mat-card-title>
+        </mat-card>
+
+      <mat-card class="treasurer-card">
+        <mat-card-title>Treasurer: {{ treasurer.name }}</mat-card-title>
+      </mat-card>
 
     </div>
 </body>
