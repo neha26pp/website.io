@@ -14,7 +14,7 @@ export class AboutUsComponent implements OnInit {
   founder: Leader = {
     name: 'Taren Lewis',
     position: 'Founder',
-    email: ''
+    email: 'tbl5256@psu.edu'
   };
 
   president: Leader = {
