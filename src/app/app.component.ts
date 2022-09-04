@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { CalendarOptions } from '@fullcalendar/angular'; // useful for typechecking
 
 @Component({
   selector: 'app-root',
@@ -7,4 +8,8 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'SDOWC Website';
+
+  calendarOptions: CalendarOptions = {
+    initialView: 'dayGridMonth'
+  };
 }
