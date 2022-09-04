@@ -3,13 +3,6 @@
   position: relative;
 }
 
-#image{
-  width: 750px;
-  height: 500px;
-  margin-left: 10px;
-  margin-top:155px;
-}
-
 .top-center{
   position:absolute;
   top:1px;
@@ -71,52 +64,59 @@ h4{
 
 }
 h5{
-
   font-family:Georgia, 'Times New Roman', Times, serif;
   font-size:large;
   color:black;
   left:800px;
   top: 300px;
   position:absolute;
+}
 
-
+.leadership-title {
+  position:absolute;
+  top:150px;
+  left:500px;
+  text-align: center;
+  font-weight: bold;
+  font-family:Georgia, 'Times New Roman', Times, serif
 }
 
 mat-card {
   border: 1px solid #000;
-  /*filter: drop-shadow(30px 10px 4px black);*/
+}
+
+mat-card img {
+  object-fit: cover;
+  width: 25%;
+  height: 25%;
+}
+
+.card {
+  max-width: 450px;
+  width: 400px;
+  height: 350px;
+  margin: 10px;
+  position: absolute;
 }
 
 .founder-card {
-  max-width: 450px;
-  margin: 10px;
-  left:800px;
+  left:100px;
   top: 200px;
-  position: absolute;
 }
 
 .president-card {
-  max-width: 450px;
-  margin: 10px;
-  left:1000px;
+  left:600px;
   top: 200px;
-  position: absolute;
 }
 
 .vice-president-card {
-  max-width: 450px;
-  margin: 10px;
-  left:800px;
-  top: 350px;
-  position: absolute;
+  left:100px;
+  top: 600px;
 }
 
 .treasurer-card {
-  max-width: 450px;
-  margin: 10px;
-  left:1000px;
-  top: 350px;
-  position: absolute;
+  left:600px;
+  top: 600px;
 }
 
 mat-card-header {
