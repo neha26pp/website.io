@@ -34,4 +34,10 @@ export class AboutUsComponent implements OnInit {
     position: 'Treasurer',
     email: 'ozp5046@psu.edu'
   };
+
+  eventsCoordinator: Leader = {
+    name: 'Divya Shukla',
+    position: 'Events Coordinator',
+    email: 'dbs6082@psu.edu'
+  }
 }

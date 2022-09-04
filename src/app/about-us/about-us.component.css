@@ -6,7 +6,7 @@
 .top-center{
   position:absolute;
   top:1px;
-  left:300px;
+  left:400px;
   text-align: center;
   font-weight: bold;
   font-family:Georgia, 'Times New Roman', Times, serif
@@ -15,7 +15,7 @@
 .mission-statement{
   position: absolute;
   top:70px;
-  left:30px;
+  left:100px;
   font-family:Georgia, 'Times New Roman', Times, serif;
   font-size: large;
   width:1200px;
@@ -75,20 +75,16 @@ h5{
 .leadership-title {
   position:absolute;
   top:150px;
-  left:500px;
+  left:580px;
   text-align: center;
   font-weight: bold;
   font-family:Georgia, 'Times New Roman', Times, serif
 }
 
-mat-card {
-  border: 1px solid #000;
-}
-
-mat-card img {
-  object-fit: cover;
-  width: 25%;
-  height: 25%;
+.mat-card:not([class*=mat-elevation-z]) {
+  box-shadow: 0 2px 1px -1px rgba(10,10,170,120),
+  0 1px 1px 0 rgba(10,10,170,120),
+  0 1px 3px 0 rgba(10,10,170,120);
 }
 
 .card {
@@ -100,23 +96,28 @@ mat-card img {
 }
 
 .founder-card {
-  left:100px;
+  left:250px;
   top: 200px;
 }
 
 .president-card {
-  left:600px;
+  left:700px;
   top: 200px;
 }
 
 .vice-president-card {
-  left:100px;
+  left:250px;
   top: 600px;
 }
 
 .treasurer-card {
-  left:600px;
+  left:700px;
   top: 600px;
+}
+
+.events-coord-card {
+  top: 1000px;
+  left: 250px;
 }
 
 mat-card-header {
