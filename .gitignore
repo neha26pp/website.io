@@ -15,6 +15,7 @@ chrome-profiler-events*.json
 
 # secrets
 environment.ts
+environment.prod.ts
 
 # IDEs and editors
 /.idea
