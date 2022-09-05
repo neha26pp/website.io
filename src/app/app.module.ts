@@ -16,6 +16,15 @@ import { CalendarComponent } from './calendar/calendar.component';
 import { HeaderComponent } from './header/header.component';
 import { EventsComponent } from './events/events.component';
 
+import { FullCalendarModule } from '@fullcalendar/angular'; // must go before plugins
+import dayGridPlugin from '@fullcalendar/daygrid'; // a plugin!
+import interactionPlugin from '@fullcalendar/interaction'; // a plugin!
+
+FullCalendarModule.registerPlugins([ // register FullCalendar plugins
+  dayGridPlugin,
+  interactionPlugin
+]);
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -28,6 +37,7 @@ import { EventsComponent } from './events/events.component';
   ],
   imports: [
     BrowserModule,
+    FullCalendarModule,
     AppRoutingModule,
     FormsModule,
     BrowserAnimationsModule,
