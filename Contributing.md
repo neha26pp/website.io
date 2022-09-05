@@ -56,7 +56,7 @@ Resolving deltas: 100% (45/45), done.
 ```
 
 If you see that, it's a good thing. Now navigate to the Angular source code directory by entering the following command:
-`cd website.io/web-design`
+`cd website.io/src`
 
 This is where the code is! Navigate here in your IDE to see and edit code! If you're VS Code, you can do this easily from the terminal using `code .`
 
