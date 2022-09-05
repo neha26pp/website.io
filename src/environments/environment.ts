@@ -4,6 +4,7 @@
 
 export const environment = {
   production: false,
+  ADMIN_PASSWORD: "abc123",
 };
 
 /*

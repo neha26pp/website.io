@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { environment } from 'src/environments/environment';
 import { CalendarOptions, DateSelectArg, EventClickArg, EventApi } from '@fullcalendar/angular';
 import { INITIAL_EVENTS, createEventId } from './event-utils';
 
@@ -53,7 +54,7 @@ export class EventsComponent implements OnInit {
 
     calendarApi.unselect(); // clear date selection
 
-    if (adminName == 'neha') {
+    if (this.adminAuth(adminName)) {
       const title = prompt('Enter event title')
       if(title){
           //const eventTitle = prompt('Enter the event title:')
@@ -70,13 +71,21 @@ export class EventsComponent implements OnInit {
   }
 
   handleEventClick(clickInfo: EventClickArg) {
-    const adminName = prompt('Enter admin name')
-    if (adminName == 'neha') {
+    const adminName = prompt('Enter admin name');
+    if (this.adminAuth(adminName)) {
       clickInfo.event.remove();
     }
   }
 
   handleEvents(events: EventApi[]) {
     this.currentEvents = events;
+  }
+
+  adminAuth(password: string | null) {
+    if (password == environment.ADMIN_PASSWORD) {
+      return true;
+    } else {
+      return false;
+    }
   }
 }
