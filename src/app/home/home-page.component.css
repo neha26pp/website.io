@@ -3,13 +3,13 @@ h3{
     font-weight: bold;
     font-stretch: expanded;
     font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
 }
 
 #image{
-   
+    
     width: 1260px;
     height:1000px;
-    
 }
 
 
