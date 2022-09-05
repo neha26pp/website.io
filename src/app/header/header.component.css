@@ -1,6 +1,11 @@
 /*This is a css file for the design and layout of  header components */
 
+#navbar-brand{
 
+    width: 200px;
+    
+
+}
 .navbar-brand{
     font-size: large;
     font-family: Georgia, 'Times New Roman', Times, serif;
