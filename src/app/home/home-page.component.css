@@ -7,9 +7,10 @@ h3{
 }
 
 #image{
-    
-    width: 1260px;
-    height:1000px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 75%;
 }
 
 
