@@ -23,9 +23,9 @@
 }
 
 .btn-outline-success{
-   position: absolute;
-    left:1115px;
-    top: 12px;
+   position: relative;
+    left:auto;
+    top: auto;
     color: black;
     background-color: white;
     font-size: small;

@@ -17,7 +17,7 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HomePageComponent } from './home/home-page.component';
 import { AboutUsComponent } from './about-us/about-us.component';
-import { CalendarComponent } from './calendar/calendar.component';
+//import { CalendarComponent } from './calendar/calendar.component';
 import { HeaderComponent } from './header/header.component';
 import { EventsComponent } from './events/events.component';
 
@@ -36,7 +36,7 @@ FullCalendarModule.registerPlugins([
     EventsComponent,
     HeaderComponent,
     EventsComponent,
-    CalendarComponent,
+    //CalendarComponent,
 
   ],
   imports: [
