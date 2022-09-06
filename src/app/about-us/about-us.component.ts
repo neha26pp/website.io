@@ -1,3 +1,4 @@
+//
 import { Component, OnInit } from '@angular/core';
 import { Leader } from "src/app/about-us/leader";
 
