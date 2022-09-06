@@ -1,29 +1,11 @@
-<!--<img id = "image" src = "https://behrend.psu.edu/sites/behrend/files/lionmascot-number1-burke.jpg">
-<div class = "top-center">We are the Software Development Organization World Campus!</div>
-<div clas = "mission-statement">This organization is a PSU affiliated club for students, alumni, staff, and members of the gernal public 
-    who are interested in eveloping their skills related to software engineering, programming, technology, computer hardware, and other related topics.
-    The organization was founded with the purpose of the further education and networking of students in the field of software development, engineering 
-    computer science.
-</div>
-<p>
-    Meet the leadership!
-    Founder:
-    President:
-    Vice President:
-    Events Coordinator:
-
-    
-</p>-->
-
-
 <head>
     <style>
         .container{
-            
+
             margin: 0%;
             position: relative;
-            
-          
+
+
 
         }
 
@@ -33,7 +15,7 @@
                 margin-left: 10px;
                 margin-top:155px;
             }
-       
+
         .top-center{
             position:absolute;
             top:1px;
@@ -76,7 +58,7 @@
             font-size:large;
             color:black;
             position: absolute;
-          
+
 
         }
         h4{
@@ -87,30 +69,28 @@
 
         }
         h5{
-            
+
             font-family:Georgia, 'Times New Roman', Times, serif;
             font-size:large;
             color:black;
             position:absolute;
 
-    
+
         }
     </style>
 </head>
 <body>
-    <div class="container">
+    <!-- <div class="container">
         <img id = "image" src="https://behrend.psu.edu/sites/behrend/files/lionmascot-number1-burke.jpg">
-    
+
         <h3 class="top-center">
             We are the Software Development Organization World Campus!
         </h3>
-
-        <div class = "mission-statement">This organization is a PSU affiliated club for students, alumni, staff, and members of the gernal public 
+        <div class = "mission-statement">This organization is a PSU affiliated club for students, alumni, staff, and members of the gernal public
             who are interested in eveloping their skills related to software engineering, programming, technology, computer hardware, and other related topics.
-            The organization was founded with the purpose of the further education and networking of students in the field of software development, engineering 
+            The organization was founded with the purpose of the further education and networking of students in the field of software development, engineering
             computer science.
         </div>
-
         <div>
             <h1 style = "left:800px; top:160px;">Meet the Leadership:</h1>
             <h2 style = "left:800px; top:200px;">Founder: </h2>
@@ -118,25 +98,74 @@
             <h4 style = "left:800px; top:270px;">Vice President: </h4>
             <h5 style = "left:800px; top:300px;">Events Coordinator: </h5>
         </div>
-            
-        
-            
-      
+
+
+
+
+    </div>-->
+
+
+
+
+
+<!--------->
+<!---->
+
+<body>
+     <div class="container">
+
+        <h1 class="top-center">
+            We are the Software Development Organization World Campus!
+        </h1>
+
+        <div class = "mission-statement">This organization is a PSU affiliated club for students, alumni, staff, and members of the general public
+            who are interested in developing their skills related to software engineering, programming, technology, computer hardware, and other related topics.
+            The organization was founded with the purpose of the further education and networking of students in the field of software development, engineering
+            computer science.
+        </div>
+        <h1 class="leadership-title">Meet the Leadership:</h1>
+        <mat-card class="card founder-card">
+          <mat-card-title>{{ founder.position }}</mat-card-title>
+          <mat-card-subtitle>{{ founder.name }}</mat-card-subtitle>
+          <mat-card-content>{{ founder.email }}</mat-card-content>
+        </mat-card>
+
+        <mat-card class="card president-card">
+          <mat-card-title>{{ president.position }}</mat-card-title>
+          <mat-card-subtitle>{{ president.name }}</mat-card-subtitle>
+          <mat-card-content>{{ president.email }}</mat-card-content>
+        </mat-card>
+
+        <mat-card class="card vice-president-card">
+          <mat-card-title>{{ vicePresident.position }}</mat-card-title>
+          <mat-card-subtitle>{{ vicePresident.name }}</mat-card-subtitle>
+          <mat-card-content>{{ vicePresident.email }}</mat-card-content>
+        </mat-card>
+
+      <mat-card class="card treasurer-card">
+        <mat-card-title>{{ treasurer.position }}</mat-card-title>
+        <mat-card-subtitle>{{ treasurer.name }}</mat-card-subtitle>
+        <mat-card-content>{{ treasurer.email }}</mat-card-content>
+      </mat-card>
+
+      <mat-card class="card events-coord-card">
+        <mat-card-title>{{ eventsCoordinator.position }}</mat-card-title>
+        <mat-card-subtitle>{{ eventsCoordinator.name }}</mat-card-subtitle>
+        <mat-card-content>{{ eventsCoordinator.email }}</mat-card-content>
+      </mat-card>
     </div>
 
-    
-
     <div class="formstyle">
-        
+
         <div style = "text-align: center; margin: auto">
             <p style = "text-align: center; margin: auto; font-family:Georgia, 'Times New Roman', Times, serif; font-size:large; color:black; font-weight: bold; font-size:20px">Contact</p><br><br>
             <p style = "text-align: center; margin: auto; font-family:Georgia, 'Times New Roman', Times, serif; font-size:large; color:black">Let's get in touch!</p>
         </div>
         <br><br>
-    
-        <form action="mailto:nxp5310@psu.edu" method="post" enctype="text/plain"> <!-- the president's email address -->
-            
-            
+
+        <form action="mailto:nxp5310@psu.edu"> <!-- the president's email address -->
+
+
 
           <label for="name" style="font-family:Georgia, 'Times New Roman', Times, serif">Name</label><br>
           <input type="text" id="name" name="name" placeholder="Your name" style="font-family:Georgia, 'Times New Roman', Times, serif">
@@ -150,7 +179,7 @@
           <input type="submit" value="Submit" style="font-family:Georgia, 'Times New Roman', Times, serif">
         </form>
     </div>
-    
+
 </body>
 
-
+</body>
