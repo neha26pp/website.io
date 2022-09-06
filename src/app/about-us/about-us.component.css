@@ -1,0 +1,82 @@
+/*
+#image{
+   
+    position: relative; 
+    left: 0; 
+    right: 0; 
+    width: 1260px;
+    height: 1000px;;
+     
+    
+    
+}*/
+
+/*
+.container{
+    margin: 1%;
+    position: relative;
+}
+
+
+
+
+
+
+.top-center{
+    position: absolute;
+    top: 130px;
+    left: 350px;
+    font-size: larger;
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
+}*/
+
+/*
+.mission-statement{
+    position: absolute;
+    top: 150px;
+    left:200px;
+    font-size: larger;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}*/
+
+input[type=text], select, textarea {
+width: 800px;
+padding: 12px;
+border: 1px solid #ccc;
+border-radius: 4px;
+box-sizing: border-box;
+margin-top: 6px;
+margin-bottom: 16px;
+resize: vertical;
+justify-content: center;
+}
+
+input[type=submit] {
+background-color: rgb(30, 64, 124);
+color: white;
+padding: 12px 20px;
+border: none;
+border-radius: 4px;
+cursor: pointer;
+}
+
+input[type=submit]:hover {
+background-color: rgb(5, 17, 43);
+}
+
+div.formstyle {
+border-radius: 10px;
+background-color: rgb(150, 190, 230);
+padding: 20px;
+
+justify-content: center;
+display: block;
+text-align: center;
+}
+
+form {
+    justify-content: center;
+    display: inline-block;
+}
