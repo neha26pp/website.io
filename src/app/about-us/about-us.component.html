@@ -1,9 +1,123 @@
-<body>
-    <div class="container">
+<head>
+    <style>
+        .container{
+            
+            margin: 0%;
+            position: relative;
+            
+          
 
+        }
+
+        #image{
+                width: 750px;
+                height: 500px;
+                margin-left: 10px;
+                margin-top:155px;
+            }
+       
+        .top-center{
+            position:absolute;
+            top:1px;
+            left:300px;
+            text-align: center;
+            font-weight: bold;
+            font-family:Georgia, 'Times New Roman', Times, serif
+        }
+
+        .mission-statement{
+            position: absolute;
+            top:70px;
+            left:30px;
+            font-family:Georgia, 'Times New Roman', Times, serif;
+            font-size: large;
+            width:1200px;
+            text-align: center;
+            color: black;
+        }
+
+        h1{
+            font-family:Georgia, 'Times New Roman', Times, serif;
+            font-size:large;
+            color:black;
+            position:absolute;
+            position:absolute;
+            font-weight: bold;
+            font-size:20px;
+
+        }
+        h2{
+            font-family:Georgia, 'Times New Roman', Times, serif;
+            font-size:large;
+            color:black;
+            position:absolute;
+
+        }
+        h3{
+            font-family:Georgia, 'Times New Roman', Times, serif;
+            font-size:large;
+            color:black;
+            position: absolute;
+          
+
+        }
+        h4{
+            font-family:Georgia, 'Times New Roman', Times, serif;
+            font-size:large;
+            color:black;
+            position:absolute;
+
+        }
+        h5{
+            
+            font-family:Georgia, 'Times New Roman', Times, serif;
+            font-size:large;
+            color:black;
+            position:absolute;
+
+    
+        }
+    </style>
+</head>
+<body>
+    <!-- <div class="container">
+        <img id = "image" src="https://behrend.psu.edu/sites/behrend/files/lionmascot-number1-burke.jpg">
+    
         <h3 class="top-center">
             We are the Software Development Organization World Campus!
         </h3>
+
+        <div class = "mission-statement">This organization is a PSU affiliated club for students, alumni, staff, and members of the gernal public 
+            who are interested in eveloping their skills related to software engineering, programming, technology, computer hardware, and other related topics.
+            The organization was founded with the purpose of the further education and networking of students in the field of software development, engineering 
+            computer science.
+        </div>
+
+        <div>
+            <h1 style = "left:800px; top:160px;">Meet the Leadership:</h1>
+            <h2 style = "left:800px; top:200px;">Founder: </h2>
+            <h3 style = "left:800px; top:230px;">President: </h3>
+            <h4 style = "left:800px; top:270px;">Vice President: </h4>
+            <h5 style = "left:800px; top:300px;">Events Coordinator: </h5>
+        </div> 
+            
+        
+            
+      
+    </div>-->
+
+    
+
+    
+
+<!--------->
+
+<body>
+     <div class="container">
+
+        <h1 class="top-center">
+            We are the Software Development Organization World Campus!
+        </h1>
 
         <div class = "mission-statement">This organization is a PSU affiliated club for students, alumni, staff, and members of the general public
             who are interested in developing their skills related to software engineering, programming, technology, computer hardware, and other related topics.
@@ -40,6 +154,33 @@
         <mat-card-subtitle>{{ eventsCoordinator.name }}</mat-card-subtitle>
         <mat-card-content>{{ eventsCoordinator.email }}</mat-card-content>
       </mat-card>
+    </div> 
+
+    <div class="formstyle">
+        
+        <div style = "text-align: center; margin: auto">
+            <p style = "text-align: center; margin: auto; font-family:Georgia, 'Times New Roman', Times, serif; font-size:large; color:black; font-weight: bold; font-size:20px">Contact</p><br><br>
+            <p style = "text-align: center; margin: auto; font-family:Georgia, 'Times New Roman', Times, serif; font-size:large; color:black">Let's get in touch!</p>
+        </div>
+        <br><br>
+    
+        <form action="mailto:nxp5310@psu.edu"> <!-- the president's email address -->
+            
+            
+
+          <label for="name" style="font-family:Georgia, 'Times New Roman', Times, serif">Name</label><br>
+          <input type="text" id="name" name="name" placeholder="Your name" style="font-family:Georgia, 'Times New Roman', Times, serif">
+      <br>
+          <label for="email" style="font-family:Georgia, 'Times New Roman', Times, serif">Email Address</label><br>
+          <input type="text" id="email" name="email" placeholder="Your email address" style="font-family:Georgia, 'Times New Roman', Times, serif">
+      <br>
+          <label for="subject" style="font-family:Georgia, 'Times New Roman', Times, serif">Message</label><br>
+          <textarea id="subject" name="subject" placeholder="Write your message..." style="height:200px; font-family:Georgia, 'Times New Roman', Times, serif"></textarea>
+          <br>
+          <input type="submit" value="Submit" style="font-family:Georgia, 'Times New Roman', Times, serif">
+        </form>
     </div>
+    
+</body>
     
 </body>

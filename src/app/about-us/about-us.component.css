@@ -1,82 +1,173 @@
-/*
-#image{
-   
-    position: relative; 
-    left: 0; 
-    right: 0; 
-    width: 1260px;
-    height: 1000px;;
-     
-    
-    
-}*/
-
-/*
 .container{
-    margin: 1%;
+    margin: 0%;
     position: relative;
-}
-
-
-
-
-
-
-.top-center{
-    position: absolute;
-    top: 130px;
-    left: 350px;
-    font-size: larger;
+  }
+  
+  .top-center{
+    position:absolute;
+    top:1px;
+    left:400px;
+    text-align: center;
     font-weight: bold;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    
-}*/
-
-/*
-.mission-statement{
+    font-family:Georgia, 'Times New Roman', Times, serif
+  }
+  
+  .mission-statement{
     position: absolute;
-    top: 150px;
-    left:200px;
-    font-size: larger;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-}*/
-
-input[type=text], select, textarea {
-width: 800px;
-padding: 12px;
-border: 1px solid #ccc;
-border-radius: 4px;
-box-sizing: border-box;
-margin-top: 6px;
-margin-bottom: 16px;
-resize: vertical;
-justify-content: center;
-}
-
-input[type=submit] {
-background-color: rgb(30, 64, 124);
-color: white;
-padding: 12px 20px;
-border: none;
-border-radius: 4px;
-cursor: pointer;
-}
-
-input[type=submit]:hover {
-background-color: rgb(5, 17, 43);
-}
-
-div.formstyle {
-border-radius: 10px;
-background-color: rgb(150, 190, 230);
-padding: 20px;
-
-justify-content: center;
-display: block;
-text-align: center;
-}
-
-form {
+    top:70px;
+    left:100px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size:larger;
+    width:1200px;
+    text-align: center;
+    color: black;
+  }
+  
+  h1{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size:large;
+    color:black;
+    left: 800px;
+    top: 160px;
+    position:absolute;
+    position:absolute;
+    font-weight: bold;
+    font-size:20px;
+    text-align: center;
     justify-content: center;
-    display: inline-block;
-}
+  }
+  h2{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size:large;
+    color:black;
+    left:800px;
+    top: 200px;
+    position:absolute;
+  
+  }
+  h3{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size:large;
+    color:black;
+    left:800px;
+    top: 230px;
+    position: absolute;
+
+  }
+  h4{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size:large;
+    color:black;
+    left:800px;
+    top: 270px;
+    position:absolute;
+  
+  }
+  h5{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size:large;
+    color:black;
+    left:800px;
+    top: 300px;
+    position:absolute;
+  }
+  
+  .leadership-title {
+    position:absolute;
+    top:150px;
+    left:580px;
+    text-align: center;
+    font-weight: bold;
+    font-family:Georgia, 'Times New Roman', Times, serif
+  }
+  
+  .mat-card:not([class*=mat-elevation-z]) {
+    box-shadow: 0 2px 1px -1px rgba(10,10,170,120),
+    0 1px 1px 0 rgba(10,10,170,120),
+    0 1px 3px 0 rgba(10,10,170,120);
+  }
+  
+  .card {
+    max-width: 450px;
+    width: 400px;
+    height: 350px;
+    margin: 10px;
+    position: absolute;
+  }
+  
+  .founder-card {
+    left:250px;
+    top: 200px;
+  }
+  
+  .president-card {
+    left:700px;
+    top: 200px;
+  }
+  
+  .vice-president-card {
+    left:250px;
+    top: 600px;
+  }
+  
+  .treasurer-card {
+    left:700px;
+    top: 600px;
+  }
+  
+  .events-coord-card {
+    top: 1000px;
+    left: 250px;
+  }
+  
+  mat-card-header {
+    font-size: 18px;
+  }
+  
+  mat-card-title {
+    font-size: 18px;
+    justify-content: center;
+    display: flex;
+  }
+
+  /*-----*/
+
+  input[type=text], select, textarea {
+    width: 800px;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    /*margin-top: 0;*/
+    margin-bottom: 16px;
+    resize: vertical;
+    justify-content: center;
+    }
+    
+    input[type=submit] {
+    background-color: rgb(30, 64, 124);
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    }
+    
+    input[type=submit]:hover {
+    background-color: rgb(5, 17, 43);
+    }
+    
+    div.formstyle {
+    border-radius: 10px;
+    background-color: rgb(150, 190, 230);
+    padding: 20px;
+    margin-top: 1400px;
+    justify-content: center;
+    display: block;
+    text-align: center;
+    }
+    
+    form {
+        justify-content: center;
+        display: inline-block;
+    }
